@@ -1,0 +1,390 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karisma Furniture - Charismatic Living
+    </title>
+    <link rel="icon" href="img/logo-w.svg">
+    <link rel="stylesheet" href="../css/output.css">
+</head>
+
+<body class="bg-neutral-100 relative">
+    
+    <!-- navigation bar -->
+    <div class="navbar absolute top-0 left-0 right-0">
+
+        <!-- left side -->
+        <a href="index.html">
+            <img src="img/logo-w.svg" alt="">
+        </a>
+        
+        <!-- right side -->
+        <ul class="flex items-center gap-4">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="index.html#pro-ne">Project</a>
+            </li>
+            <li id="alo" class="cursor-pointer">Contact</li>
+            <li>
+                <a href="Kha Quang Boi_CV.pdf" target="_blank">CV</a>
+            </li>
+            <button class="btn" onclick="sendEmail()">Send email</button>
+        </ul>
+    </div>
+
+    <!-- hero img -->
+    <img id="top-ne" src="img/krm's/thumbnail.png" alt="">
+
+    <!-- content of case study -->
+    <!-- 1 overview -->
+    <div id="ov-ne" class="detail">
+
+        <!-- key info -->
+        <div>
+            <h1 class="bg-karisma-gradient">Karisma Website</h1>
+            <p>An ecommerce website selling furniture, crafted with a minimal brand aesthetic. “Karisma furniture, charismatic living”.</p>
+        </div>
+
+        <!-- secondary -->
+        <div style="flex-direction: row; align-self: start; gap: 24px">
+
+            <!-- left -->
+            <ul class="flex flex-col text-base font-normal text-neutral-600 gap-4">
+                <li>Project Type:</li>
+                <li>Duration:</li>
+                <li>Role:</li>
+                <li>Tools:</li>
+            </ul>
+
+            <!-- right -->
+            <ul class="flex flex-col text-base font-normal text-neutral-600 gap-4">
+                <li>UI, Individual project</li>
+                <li>1 month</li>
+                <li>UI Designer</li>
+                <li>
+                    <img src="icon/figma-color.svg" alt="Figma">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- quick links -->
+    <div class="sum bg-karisma-strong">
+        <h3>QUICK LINKS</h3>
+        <div class="flex gap-6">
+            <a href="https://www.behance.net/gallery/195531937/Karisma-Furniture-Charismatic-Living-Ecommerce-Web" target="_blank">
+                <button class="btn">TL;DR on Behance</button>
+            </a>
+            <a href="https://www.figma.com/proto/B1OCNlXr0Ia3L2gRQc7WFR/Karisma-Furniture---Qu%E1%BA%A3ng-B%E1%BB%99i-Kha?page-id=1%3A6&node-id=3002-10111&viewport=264%2C41%2C0.04&t=adJMI1XJvwOE6yfH-1&scaling=scale-down&starting-point-node-id=3002%3A10111&show-proto-sidebar=1" target="_blank">
+                <button class="btn">Final prototype</button>
+            </a>
+            <button id="uf" class="btn">IA + User flow</button>
+        </div>
+    </div>
+
+    <!-- 2 pre-design breakdown -->
+    <div id="pre-ne" class="flex flex-col gap-[8%]">
+
+        <!-- target user -->
+        <div class="detail">
+
+            <!-- key info -->
+            <div>
+                <h1 class="bg-karisma-gradient">Target User</h1>
+                <p>Online shoppers who prefer the convenience of browsing and purchasing high-quality furniture through an intuitive e-commerce platform. They may be homeowners or renters who seek elegan designs for their living spaces.</p>
+            </div>
+
+            <!-- secondary -->
+            <div>
+                <img src="https://images.unsplash.com/photo-1487014679447-9f8336841d58?q=80&w=3405&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            </div> 
+        </div>
+
+        <!-- divider -->
+        <hr class="border border-solid border-neutral-200">
+
+        <!-- IA -->
+        <div  id="uf-ne"  class="detail">
+
+            <!-- key info -->
+            <div>
+                <h1 class="bg-karisma-gradient">Information architecture</h1>
+                <p>This helped me visualize the overall structure of my website and identify the pages that need to be built. The header of the sitemap includes a search bar, account login, shopping cart, and a main menu with options for "Product," "About," "Contact," and "New" to provide easy navigation for customers.</p>
+            </div>
+    
+            <!-- secondary -->
+            <div style="width: 100%;">
+                <img src="img/krm's/ia.png" alt="information architecture">
+            </div> 
+        </div>
+
+        <!-- divider -->
+        <hr class="border border-solid border-neutral-200">
+
+        <!-- user flow -->
+        <div class="detail">
+
+            <!-- key info -->
+            <div>
+                <h1 class="bg-karisma-gradient">User flow</h1>
+                <p>A main user flow has been developed to provide users with a clear path through the Karisma website, from discovering a product to deciding to purchase it.</p>
+            </div>
+    
+            <!-- secondary -->
+            <div style="width: 100%;">
+                <img src="img/krm's/flow.png" alt="user flow">
+            </div>
+        </div>
+    </div>
+
+    <!-- 3 summarize design system -->
+    <div id="ds-ne" class="sum bg-karisma-strong">
+        <h3>DESIGN SYSTEM</h3>
+        <ul>
+            <li>Typography</li>
+            <li>Color</li>
+            <li>Iconography</li>
+            <li>Components</li>
+        </ul>
+    </div>
+
+    <!-- design system breakdown  -->
+    <div class="flex flex-col gap-[8%]">
+
+        <!-- typography -->
+        <div class="detail">
+
+            <!-- key info -->
+            <div>
+                <h1 class="bg-karisma-gradient">Typography</h1>
+                <p>I use two font families in this project: Poppins for body text and Italiana for display.</p>
+            </div>
+
+            <!-- secondary -->
+            <div>
+                <img src="img/krm's/typo.png" alt="typography">
+            </div> 
+        </div>
+
+        <!-- divider -->
+        <hr class="border border-solid border-neutral-200">
+
+        <!-- color -->
+        <div class="detail">
+
+            <!-- key info -->
+            <div>
+                <h1 class="bg-karisma-gradient">Color</h1>
+                <p>Teal #505b44 is the accent (brand) color. I also have neutral and semantic colors. Besides the solid colors, alpha colors helped make the interface more subtle in some cases.</p>
+            </div>
+    
+            <!-- secondary -->
+            <div>
+                <img src="img/krm's/color.png" alt="color">
+            </div> 
+        </div>
+
+        <!-- divider -->
+        <hr class="border border-solid border-neutral-200">
+
+        <!-- iconography -->
+        <div class="detail">
+
+            <!-- key info -->
+            <div>
+                <h1 class="bg-karisma-gradient">Iconography</h1>
+                <p>Meet my favorite set of simply beautiful open-source icons: the Feather Icons pack.</p>
+            </div>
+    
+            <!-- secondary -->
+            <div>
+                <img src="img/krm's/icons.png" alt="iconography">
+            </div>
+        </div>
+
+        <!-- divider -->
+        <hr class="border border-solid border-neutral-200">
+
+        <!-- component -->
+        <div class="detail">
+
+            <!-- key info -->
+            <div>
+                <h1 class="bg-karisma-gradient">Components</h1>
+                <p>My favorite approach in this realm is "Atomic Design." It begins with the smallest pieces—atoms—and expands into molecules, organisms, templates, and pages. In this project, however, I've only reached the organisms stage.</p>
+            </div>
+    
+            <!-- secondary -->
+            <div>
+                <img src="img/krm's/component.png" alt="iconography">
+            </div>
+        </div>
+
+        <!-- divider -->
+        <hr class="border border-solid border-neutral-200">
+
+        <!-- other -->
+        <div class="detail">
+
+            <!-- key info -->
+            <div>
+                <h1 class="bg-karisma-gradient">Others</h1>
+                <p>Including elevation, spacing.</p>
+            </div>
+    
+            <!-- secondary -->
+            <div>
+                <img src="img/krm's/other.png" alt="iconography">
+            </div>
+        </div>
+    </div>
+
+    <!-- 4 summarize visuals -->
+    <div id="vi-ne" class="sum bg-karisma-strong">
+        <h3>VISUALS</h3>
+        <ul>
+            <li>Wireframe & Mockups</li>
+            <li>Hi-fi prototype</li>
+        </ul>
+    </div>
+
+    <!-- visual breakdown  -->
+    <div>
+
+        <!-- embed from vimeo -->
+        <div style="padding:69.94% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/931716722?h=bb4f0d2b06&autoplay=1&loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+        <!-- lofi wireframe -->
+        <img src="img/krm's/lofi wf.png" alt="low fidelity wireframe">
+
+        <!-- showcase -->
+        <img src="img/krm's/vi1.png" alt="">
+        <img src="img/krm's/vi2.png" alt="">
+        <img src="img/krm's/vi3.png" alt="">
+
+        <!-- hifi prototype -->
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FB1OCNlXr0Ia3L2gRQc7WFR%2FKarisma-Furniture---Qu%25E1%25BA%25A3ng-B%25E1%25BB%2599i-Kha%3Fpage-id%3D1%253A6%26node-id%3D3002-10111%26viewport%3D234%252C-110%252C0.07%26t%3DJzsNZH7O9fGq22ey-1%26scaling%3Dscale-down%26starting-point-node-id%3D3002%253A10111%26show-proto-sidebar%3D1" allowfullscreen></iframe>
+    </div>
+
+    <!-- fix progress bar -->
+    <div class="progress">
+        <div class="progress-line"></div>
+        <div>
+            <p id="ov" class="cursor-pointer">Overview</p>
+            <p id="pre" class="cursor-pointer">Pre-design</p>
+            <p id="ds" class="cursor-pointer">Design System</p>
+            <p id="vi" class="cursor-pointer">Visuals</p>
+            <img id="top" class="cursor-pointer" src="icon/ArrowLineUp.svg" alt="">
+        </div> 
+    </div>
+
+    <!-- contact -->
+    <div id="alo-ne" class="footer">
+
+        <!-- cta -->
+        <h2>Let’s work together</h2>
+
+        <!-- social -->
+        <div class="flex flex-col gap-2">
+
+            <!-- phone -->
+            <div class="flex items-center gap-2">
+                <img src="icon/Phone.svg" alt="">
+                <p class="text-neutral-50 text-base font-light">(+84) 899 467 545</p>
+            </div>
+
+            <!-- mail -->
+            <div class="flex items-center gap-2">
+                <img src="icon/Mail.svg" alt="">
+                <p class="text-neutral-50 text-base font-light">quangboikha.ms@gmail.com</p>
+            </div>
+
+            <!-- linkedin -->
+            <a href="https://www.linkedin.com/in/kha-qu%E1%BA%A3ng-b%E1%BB%99i-084ab0165/" target="_blank">
+                <div class="flex items-center gap-2">
+                    <img src="icon/Linkedin.svg" alt="">
+                    <p class="text-neutral-50 text-base font-light">Kha Quảng Bội</p>
+                </div>
+            </a>
+
+            <!-- behance -->
+            <a href="https://www.behance.net/b209a479" target="_blank">
+                <div class="flex items-center gap-2">
+                    <img src="icon/Behance.svg" alt="">
+                    <p class="text-neutral-50 text-base font-light">Kha Quảng Bội</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="py-6 invisible">
+        neu ko co phan nay thi contact section se bi hut mat phan phia duoi do bi chiem boi fix progress bar
+    </div>
+
+
+
+
+
+    <script>
+        // scroll to overview
+        document.getElementById('ov').addEventListener('click', function() {
+          document.getElementById('ov-ne').scrollIntoView({ 
+            behavior: 'smooth'
+          });
+        });
+
+        // scroll to visuals sum
+        document.getElementById('vi').addEventListener('click', function() {
+          document.getElementById('vi-ne').scrollIntoView({ 
+            behavior: 'smooth'
+          });
+        });
+
+        // scroll to top
+        document.getElementById('top').addEventListener('click', function() {
+          document.getElementById('top-ne').scrollIntoView({ 
+            behavior: 'smooth'
+          });
+        });
+
+        // scroll to end
+        document.getElementById('alo').addEventListener('click', function() {
+          document.getElementById('alo-ne').scrollIntoView({ 
+            behavior: 'smooth'
+          });
+        });
+
+        // scroll to pre-design
+        document.getElementById('pre').addEventListener('click', function() {
+          document.getElementById('pre-ne').scrollIntoView({ 
+            behavior: 'smooth'
+          });
+        });
+
+        // scroll to design system sum
+        document.getElementById('ds').addEventListener('click', function() {
+          document.getElementById('ds-ne').scrollIntoView({ 
+            behavior: 'smooth'
+          });
+        });
+
+        // scroll to IA+userflow
+        document.getElementById('uf').addEventListener('click', function() {
+          document.getElementById('uf-ne').scrollIntoView({ 
+            behavior: 'smooth'
+          });
+        });
+
+        function sendEmail() {
+        const email = encodeURIComponent('quangboikha.ms@gmail.com');
+        const subject = encodeURIComponent('Subject');
+        const body = encodeURIComponent('Dear Ms. Kha,');
+        const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
+        window.open(mailtoLink, '_blank');
+        }
+
+      </script>
+</body>
+</html>

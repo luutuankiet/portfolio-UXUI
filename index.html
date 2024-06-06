@@ -1,0 +1,222 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quảng Bội Kha | UX/UI Designer</title>
+    <link rel="icon" href="img/logo-w.svg">
+    <link rel="stylesheet" href="../css/output.css">
+    <style>
+        .sticky-top {
+            position: -webkit-sticky; /* For Safari */
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+    </style>
+</head>
+
+
+<body class="bg-neutral-100">
+
+    <!-- sticky navigation bar -->
+    <div style="background-color: #F5F5F5; color: #0A0A0A" class="navbar fixed top-0 left-0 right-0 z-50">
+
+        <!-- left side -->
+        <img class="cursor-pointer" src="img/logo.svg" alt="Logo">
+        
+        <!-- right side -->
+        <ul class="flex items-center gap-4">
+            <li id="home" class="cursor-pointer">Home</li>
+            <li id="pro" class="cursor-pointer">Project</li>
+            <li id="alo" class="cursor-pointer">Contact</li>
+            <li>
+                <a href="Kha Quang Boi_CV.pdf" target="_blank">CV</a>
+            </li>
+            <button class="btn" onclick="sendEmail()">Send email</button>
+        </ul>
+    </div>
+
+
+    <div id="home-ne" class="relative">
+        <!-- Kha -->
+        <div class="flex items-end px-margin pt-16 sticky-top mix-blend-difference">
+
+            <!-- left side -->
+            <div class="opacity-0 flex w-1/2 gap-4">
+                <div class="w-1/2">
+                    <img class="w-full h-full" src="img/hero1.svg" alt="hand holding phone">
+                </div>
+
+                <div class="w-1/2">
+                    <img class="w-full h-full" src="img/hero2.svg" alt="Kha">
+                </div>
+            </div>
+
+            <!-- right side -->
+            <div class="flex w-1/2 justify-end pl-[10%]">
+                <img class="w-full h-full" src="img/Kha white.svg" alt="">
+            </div>
+        </div>
+
+
+        <!-- div white bg -->
+        <div class="flex items-center px-margin pt-16 absolute top-0 left-0 right-0 z-0">
+
+            <!-- left side -->
+            <div class="flex w-1/2 gap-4">
+                <div class="w-1/2">
+                    <img class="w-full h-full" src="img/hero1.svg" alt="hand holding phone">
+                </div>
+
+                <div class="w-1/2">
+                    <img class="w-full h-full" src="img/hero2.svg" alt="Kha">
+                </div>
+            </div>
+
+            <!-- right side -->
+            <div class="flex w-1/2 justify-end pl-[4%] pb-[2%]">
+                <img class="w-full h-full" src="img/uxui.svg" alt="">
+            </div>
+        </div>
+
+        
+        <!-- div grey bg -->
+        <div style="padding: 13% 10%; 
+            background-image: conic-gradient(from 0deg at 50% 73.05%, #323232 0%, #191919 13%, #1D1C1C 25%, #242222 28%, #616161 50%, #797979 75%, #505050 88%, #323232 100%);" class="flex items-center mt-10 text-neutral-50 text-base font-light">
+
+            <!-- intro -->
+            <p class="w-1/2">
+                As a UX/UI Designer and former Account Executive, I offer tailored solutions rooted in a deep understanding of user needs. My aim now is to craft interfaces that ensure a seamless "Don't Make Me Think" experience for users, using creativity and problem-solving skills.
+            </p>
+        </div>
+    </div>
+    
+    <!-- projects -->
+    <div id="pro-ne" class="flex flex-col px-margin gap-6 py-10 bg-neutral-100 z-50">
+
+        <!-- karisma -->
+        <div class="flex items-end">
+
+            <!-- thumbnail -->
+            <img class="w-1/2" src="img/Karisma abf.gif" alt="thumbnail karisma">
+
+            <!-- description -->
+            <div class="cardDes">
+                <h3>Karisma Furniture - Charismatic Living</h3>
+                <p>A website selling furniture, crafted with a sleek and minimal brand aesthetic. This project is primarily focused on UI.</p>
+                <a href="karisma.html">
+                    <button class="btn">View More</button>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- cinemate -->
+        <div class="flex items-end">
+
+            <!-- thumbnail -->
+            <img class="w-1/2" src="img/cinemate.png" alt="thumbnail karisma">
+
+            <!-- description -->
+            <div class="cardDes">
+                <h3>Cinemate - A Movie Buddy for Wheelchair Users</h3>
+                <p>A movie ticket booking app designed with accessibility in mind, bringing an inclusive experience to all movie-goers.</p>
+                <a href="cinemate.html">
+                    <button class="btn">View More</button>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- gotyme -->
+        <div class="flex items-end">
+
+            <!-- thumbnail -->
+            <img class="w-1/2" src="img/gotyme.gif" alt="thumbnail karisma">
+
+            <!-- description -->
+            <div class="cardDes">
+                <h3>GoTyme Website - Digital Bank in Digital World</h3>
+                <p>A website built to provide information while driving conversions, inspired by Gotyme Singapore and TymeX's approach in the Vietnamese banking market.</p>
+                <a href="gotyme.html">
+                    <button class="btn">View More</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- contact -->
+    <div id="alo-ne" class="footer">
+
+        <!-- cta -->
+        <h2>Let’s work together</h2>
+
+        <!-- social -->
+        <div class="flex flex-col gap-2">
+
+            <!-- phone -->
+            <div class="flex items-center gap-2">
+                <img src="icon/Phone.svg" alt="">
+                <p class="text-neutral-50 text-base font-light">(+84) 899 467 545</p>
+            </div>
+
+            <!-- mail -->
+            <div class="flex items-center gap-2">
+                <img src="icon/Mail.svg" alt="">
+                <p class="text-neutral-50 text-base font-light">quangboikha.ms@gmail.com</p>
+            </div>
+
+            <!-- linkedin -->
+            <a href="https://www.linkedin.com/in/kha-qu%E1%BA%A3ng-b%E1%BB%99i-084ab0165/" target="_blank">
+                <div class="flex items-center gap-2">
+                    <img src="icon/Linkedin.svg" alt="">
+                    <p class="text-neutral-50 text-base font-light">Kha Quảng Bội</p>
+                </div>
+            </a>
+
+            <!-- behance -->
+            <a href="https://www.behance.net/b209a479" target="_blank">
+                <div class="flex items-center gap-2">
+                    <img src="icon/Behance.svg" alt="">
+                    <p class="text-neutral-50 text-base font-light">Kha Quảng Bội</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+
+
+    <script>
+        // scroll to projects
+        document.getElementById('pro').addEventListener('click', function() {
+          document.getElementById('pro-ne').scrollIntoView({ 
+            behavior: 'smooth'
+          });
+        });
+
+        // scroll to end
+        document.getElementById('alo').addEventListener('click', function() {
+          document.getElementById('alo-ne').scrollIntoView({ 
+            behavior: 'smooth'
+          });
+        });
+
+        // scroll to top
+        document.getElementById('home').addEventListener('click', function() {
+          document.getElementById('home-ne').scrollIntoView({ 
+            behavior: 'smooth'
+          });
+        });
+
+        function sendEmail() {
+        const email = encodeURIComponent('quangboikha.ms@gmail.com');
+        const subject = encodeURIComponent('Subject');
+        const body = encodeURIComponent('Dear Ms. Kha,');
+        const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
+        window.open(mailtoLink, '_blank');
+        }
+
+    </script>
+</body>
+</html>
