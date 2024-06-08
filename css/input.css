@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* button */
+.btn {
+    @apply bg-neutral-100 text-neutral-950 text-base font-medium border border-neutral-950 shadow-[7px_7px_#0A0A0A] w-48 h-14
+}
+
+.btn:hover {
+    @apply bg-neutral-950 text-neutral-50 shadow-[0px_0px_#0A0A0A] translate-x-[7px] translate-y-[7px] transition
+}
+
+
+
+/* navigation bar */
+.navBar {
+    @apply flex justify-between items-center text-base font-medium text-neutral-50 px-margin py-3  bg-[rgba(0,0,0,.15)] shadow-[0px_4px_24px_0px_rgba(204,200,200,.20)] backdrop-blur-xl
+}
+
+
+
+/* card description // Clicking 'project' in the navBar will scroll to this section's container div */
+.cardDes {
+    @apply flex flex-col items-start w-1/2 px-10 py-8 border-b-[0.5px] border-neutral-400
+}
+
+.cardDes h3 {
+    @apply text-xl font-bold text-neutral-950 mb-2
+}
+
+.cardDes p {
+    @apply text-base font-light text-neutral-600 mb-8
+}
+
+
+
+/* footer // clicking 'contact' in the navBar will scroll to this section */
+.footer {
+    @apply flex flex-col justify-center items-center bg-[conic-gradient(from_180deg_at_50%_50%,#0B0B0B_0%,#191919_13%,#2F2F2F_25%,#494949_50%,#7F7F7F_83%,#1F1F1F_98%,#0B0B0B_100%)] py-[8%] gap-12
+}
+
+.footer h2 {
+    @apply text-neutral-50 text-5xl font-bold
+}
+
+
+
+/* detail is the informative section of case study, with white bg & heavy text, including first child (key info) and last child (secondary info) */
+.detail {
+    @apply flex flex-col px-margin py-[8%] gap-20
+}
+
+.detail div:first-child {
+    @apply w-1/2 flex flex-col gap-9
+}
+
+.detail div:first-child h1 {
+    font-size: 60px; line-height: 80px;
+    @apply font-extrabold bg-clip-text text-transparent
+}
+
+.detail div:first-child p, .detail div:first-child li {
+    @apply text-2xl font-medium text-neutral-950
+}
+
+.detail div:last-child {
+    @apply flex flex-col self-center w-2/3 gap-20
+}
+
+
+
+/* summary is like the divider between 'detail' sections, with light green bg & short text */
+.sum {
+    @apply flex flex-col justify-center items-center py-[10%] gap-9
+}
+
+.sum h3 {
+    @apply text-2xl font-extrabold text-neutral-100
+}
+
+.sum ul {
+    @apply flex flex-col gap-4 list-disc text-base font-normal text-neutral-100
+}
+
+
+
+/* fixed progressive bar */
+.progress {
+    @apply flex flex-col gap-0 border-t-[1px] border-neutral-950 fixed left-0 right-0 bottom-0  bg-neutral-100
+}
+
+.progress div:last-child {
+    @apply flex items-center justify-between px-margin h-[70px] text-base font-medium text-neutral-950 underline
+}
+
+.progress-line {
+    height: 6px;
+    width: 100%;
+    background-color: #0A0A0A;
+    scale: 0 1;
+    transform-origin: left;
+    animation: progress-line linear;
+    animation-timeline: scroll();
+}
+
+
+@keyframes progress-line {
+    to { scale: 1 1; }
+}
+
+
+
