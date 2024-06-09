@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -586,6 +586,10 @@ video {
   top: 0px;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -596,10 +600,6 @@ video {
 
 .flex {
   display: flex;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .w-1\/2 {
@@ -678,10 +678,6 @@ video {
   gap: 8%;
 }
 
-.self-end {
-  align-self: flex-end;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -737,10 +733,6 @@ video {
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
 }
 
-.bg-\[conic-gradient\(from_215deg_at_50\%_50\%\2c \#181818_0\%\2c \#7E7E7E_27\%\2c \#595959_50\%\2c \#2F2F2F_83\%\2c \#1B1B1B_98\%\2c \#181818_100\%\)\] {
-  background-image: conic-gradient(from 215deg at 50% 50%,#181818 0%,#7E7E7E 27%,#595959 50%,#2F2F2F 83%,#1B1B1B 98%,#181818 100%);
-}
-
 .bg-cinemate-gradient {
   background-image: linear-gradient(91deg, #999F48 10.9%, #4F5128 51.47%, #0A0A0A 97.32%);
 }
@@ -793,22 +785,9 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.py-\[11\%\] {
-  padding-top: 11%;
-  padding-bottom: 11%;
-}
-
 .py-\[8\%\] {
   padding-top: 8%;
   padding-bottom: 8%;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.pb-\[10\] {
-  padding-bottom: 10;
 }
 
 .pb-\[2\%\] {
@@ -838,11 +817,6 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .text-base {
@@ -1039,12 +1013,12 @@ video {
 }
 
 .detail div:first-child h1 {
+  font-size: 60px;
+  line-height: 80px;
   -webkit-background-clip: text;
           background-clip: text;
-  font-size: 3.75rem;
-  line-height: 1.15;
   font-weight: 800;
-  color: transparent;
+  color: transparent
 }
 
 .detail div:first-child p, .detail div:first-child li {
@@ -1143,11 +1117,5 @@ video {
   }
 }
 
-.sticky-top {
-  /* For Safari */
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background: transparent;
-  /* Ensure it doesn't cover other content */
-}
+
+
