@@ -107,4 +107,42 @@
 
 @keyframes progress-line {
     to { scale: 1 1; }
-} */  
+} */
+
+.progress {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ddd;
+    padding: 8px 16px;
+    z-index: 1000; /* Ensure it's on top of other content */
+  }
+  
+  .progress-line {
+    height: 6px;
+    width: 0; /* Initial width */
+    background-color: #0a0a0a;
+    transition: width 0.3s ease; /* Smooth transition */
+  }
+  
+  .progress-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+  }
+  
+  .progress-details p {
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .progress-details .section.current {
+    font-weight: bold;
+    color: blue; /* Customize the current section text color */
+  }
+  
