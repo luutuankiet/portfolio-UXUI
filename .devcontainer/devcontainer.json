@@ -19,7 +19,8 @@
 		"vscode": {
 			"extensions": [
 				"ms-vscode.live-server",
-				"mhutchie.git-graph"
+				"mhutchie.git-graph",
+				"bradlc.vscode-tailwindcss"
 			]
 		}
 	},
