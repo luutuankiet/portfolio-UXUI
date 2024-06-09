@@ -586,6 +586,10 @@ video {
   top: 0px;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -600,6 +604,10 @@ video {
 
 .flex {
   display: flex;
+}
+
+.h-3 {
+  height: 0.75rem;
 }
 
 .w-1\/2 {
@@ -731,6 +739,11 @@ video {
 .bg-neutral-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .bg-cinemate-gradient {
@@ -874,6 +887,10 @@ video {
 
 .mix-blend-difference {
   mix-blend-mode: difference;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
 
 /* button */
@@ -1071,51 +1088,25 @@ video {
 
 /* fixed progressive bar */
 
-.progress {
-  position: fixed;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  border-top-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(10 10 10 / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+/* .progress {
+    @apply flex flex-col gap-0 border-t-[1px] border-neutral-950 fixed left-0 right-0 bottom-0  bg-neutral-100
 }
 
 .progress div:last-child {
-  display: flex;
-  height: 70px;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-weight: 500;
-  --tw-text-opacity: 1;
-  color: rgb(10 10 10 / var(--tw-text-opacity));
-  text-decoration-line: underline;
+    @apply flex items-center justify-between px-margin h-[70px] text-base font-medium text-neutral-950 underline
 }
 
 .progress-line {
-  height: 6px;
-  width: 100%;
-  background-color: #0A0A0A;
-  scale: 0 1;
-  transform-origin: left;
-  animation: progress-line linear;
-  animation-timeline: scroll();
+    height: 6px;
+    width: 100%;
+    background-color: #0A0A0A;
+    scale: 0 1;
+    transform-origin: left;
+    animation: progress-line linear;
+    animation-timeline: scroll();
 }
+
 
 @keyframes progress-line {
-  to {
-    scale: 1 1;
-  }
-}
-
-
-
+    to { scale: 1 1; }
+} */  
