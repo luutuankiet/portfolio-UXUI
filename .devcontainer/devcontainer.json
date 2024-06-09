@@ -20,7 +20,8 @@
 			"extensions": [
 				"ms-vscode.live-server",
 				"mhutchie.git-graph",
-				"bradlc.vscode-tailwindcss"
+				"bradlc.vscode-tailwindcss",
+				"pranaygp.vscode-css-peek"
 			]
 		}
 	},
