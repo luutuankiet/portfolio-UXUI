@@ -9,7 +9,7 @@
 </head>
 
 <body class="bg-neutral-100 relative">
-    
+    <div id="progress" class="fixed bottom-0 left-0 h-3 bg-red-500 transition-width duration-300"></div>
     <!-- navigation bar -->
     <div class="navbar absolute top-0 left-0 right-0">
 
@@ -483,7 +483,7 @@
     </div>
     
     <!-- fix progress bar -->
-    <div class="progress">
+    <!-- <div class="progress">
         <div class="progress-line"></div>
         <div>
             <p id="em" class="cursor-pointer">01 / Empathize</p>
@@ -494,7 +494,7 @@
             <p id="vi" class="cursor-pointer">Visuals</p>
             <img id="top" class="cursor-pointer" src="icon/ArrowLineUp.svg" alt="">
         </div> 
-    </div>
+    </div> -->
 
     <!-- contact -->
     <div id="alo-ne" class="footer">
@@ -542,7 +542,7 @@
 
 
 
-
+    <script src="js/scroll-progress.js"></script>
     <script>
         // scroll to empathize sum
         document.getElementById('em').addEventListener('click', function() {

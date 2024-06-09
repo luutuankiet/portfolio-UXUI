@@ -86,7 +86,7 @@
 
 
 /* fixed progressive bar */
-.progress {
+/* .progress {
     @apply flex flex-col gap-0 border-t-[1px] border-neutral-950 fixed left-0 right-0 bottom-0  bg-neutral-100
 }
 
@@ -107,7 +107,4 @@
 
 @keyframes progress-line {
     to { scale: 1 1; }
-}
-
-
-
+} */  
